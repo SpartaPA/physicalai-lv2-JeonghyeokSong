@@ -1,0 +1,2 @@
+Integer values are: [98, 190, 25]
+Integer value is: 20000

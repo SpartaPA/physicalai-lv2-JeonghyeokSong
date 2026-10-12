@@ -1,0 +1,175 @@
+/camera/camera/color/camera_info [sensor_msgs/msg/CameraInfo]
+/camera/camera/color/image_raw [sensor_msgs/msg/Image]
+/camera/camera/color/image_raw/compressed [sensor_msgs/msg/CompressedImage]
+/camera/camera/color/metadata [realsense2_camera_msgs/msg/Metadata]
+/camera/camera/extrinsics/depth_to_color [realsense2_camera_msgs/msg/Extrinsics]
+/parameter_events [rcl_interfaces/msg/ParameterEvent]
+/rosout [rcl_interfaces/msg/Log]
+/target [geometry_msgs/msg/PointStamped]
+/tf_static [tf2_msgs/msg/TFMessage]
+/vision/image [sensor_msgs/msg/Image]
+/vision/mask [sensor_msgs/msg/Image]
+=== /camera/camera/color/image_raw
+Type: sensor_msgs/msg/Image
+
+Publisher count: 1
+
+Node name: camera
+Node namespace: /camera
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: PUBLISHER
+GID: 01.0f.f2.16.88.81.46.4c.00.00.00.00.00.00.14.03
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): KEEP_LAST (1)
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 2
+
+Node name: rqt_gui_cpp_node_1767941
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.f2.16.05.fa.fa.50.01.00.00.00.00.00.1d.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (5)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Node name: vision_node
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.f2.16.6e.2f.bd.5f.00.00.00.00.00.00.13.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+=== /vision/mask
+Type: sensor_msgs/msg/Image
+
+Publisher count: 1
+
+Node name: vision_node
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: PUBLISHER
+GID: 01.0f.f2.16.6e.2f.bd.5f.00.00.00.00.00.00.17.03
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: rqt_gui_cpp_node_1767941
+Node namespace: /
+Topic type: sensor_msgs/msg/Image
+Topic type hash: RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.f2.16.05.fa.fa.50.01.00.00.00.00.00.1b.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (5)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+=== /target
+Type: geometry_msgs/msg/PointStamped
+
+Publisher count: 1
+
+Node name: vision_node
+Node namespace: /
+Topic type: geometry_msgs/msg/PointStamped
+Topic type hash: RIHS01_4c0296af86e01e562e9e0405d138a01537247580076c58ea38d7923ac1045897
+Endpoint type: PUBLISHER
+GID: 01.0f.f2.16.6e.2f.bd.5f.00.00.00.00.00.00.19.03
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (1)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 2
+
+Node name: rqt_topic_worker_node_65011741__target
+Node namespace: /
+Topic type: geometry_msgs/msg/PointStamped
+Topic type hash: RIHS01_4c0296af86e01e562e9e0405d138a01537247580076c58ea38d7923ac1045897
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.f2.16.05.fa.fa.50.00.00.00.00.00.00.23.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (10)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Node name: _ros2cli_1770249
+Node namespace: /
+Topic type: geometry_msgs/msg/PointStamped
+Topic type hash: RIHS01_4c0296af86e01e562e9e0405d138a01537247580076c58ea38d7923ac1045897
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.f2.16.09.03.b1.2c.00.00.00.00.00.00.07.04
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): KEEP_LAST (5)
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+=== param
+/vision_node:
+  ros__parameters:
+    blur_kernel_size: 3
+    lower:
+    - 98
+    - 190
+    - 25
+    min_area: 1000
+    qos_overrides:
+      /parameter_events:
+        publisher:
+          depth: 1000
+          durability: volatile
+          history: keep_last
+          reliability: reliable
+    start_type_description_service: true
+    upper:
+    - 118
+    - 255
+    - 230
+    use_sim_time: false
+

@@ -1,0 +1,6 @@
+$ ros2 topic echo /camera/camera/color/image_raw --field encoding --once
+rgb8
+$ ros2 topic echo /camera/camera/color/image_raw --field width --once
+640
+$ ros2 topic echo /camera/camera/color/image_raw --field height --once
+480
